@@ -1,0 +1,244 @@
+font-family: 'Roboto', sans-serif;
+
+body {
+
+	
+	
+}
+
+#todo {
+	display: flex;
+}
+
+#cuerpo {
+	margin: 0px;
+	background: #e8fbe8;
+	width: 100%;
+
+
+}
+
+main {
+
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+header {
+	width: 100%;
+	border-bottom: solid #6a9f4b 3px;
+
+	
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	background: #b8e1b0;
+	align-items: center;
+
+
+}
+
+header img{
+	max-width: 6%;
+}
+
+#enlaces{
+
+	display: inline-block;
+}
+
+nav a{
+
+	font-family: Roboto;
+	font-size: 2rem;
+	text-decoration: none;
+	color:  black;
+	font-weight: bold;
+	margin: 1rem;
+	text-shadow: -1px -1px 0 #a4c639, 1px -1px 0 #a4c639, -1px 1px 0 #a4c639, 1px 1px 0 #a4c639;
+
+}
+
+h1	{
+
+	font-family: Roboto;
+	font-size: 3rem;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+h2	{
+
+	text-shadow: -2px -2px 0 #a4c639, 2px -2px 0 #a4c639, -2px 2px 0 #a4c639, 2px 2px 0 #a4c639;
+	font-family: Roboto;
+	font-size: 1.5rem;
+	font-weight: bolder;
+	color: black;
+	text-align: center;
+
+}
+
+p {
+
+	font-family: Roboto;
+	color: black;
+	font-size: 1.3rem;
+	font-weight: bold;
+
+}
+
+.lado{
+
+	background-image: url("img/androidbanner1.png");
+	width: 15%;
+
+	height: 15vh;
+}
+
+.bannerlado>img{
+	max-width: 90%;
+	padding-top: 2rem;
+	border-right: solid 2px #19ff85;
+	border-left: solid 2px #19ff85;
+	padding-right: 0px;
+}
+
+#titulo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#titulo i{
+	font-size: 3rem;
+	margin: 3rem;
+	color: #a4c639;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+#titulo h1{
+	text-shadow: -2px -2px 0 #a4c639, 2px -2px 0 #a4c639, -2px 2px 0 #a4c639, 2px 2px 0 #a4c639;
+}
+
+#articulo1 {
+
+		padding: 3rem;
+		-webkit-box-shadow: 1px 1px 27px 2px rgba(164,198,57,0.71); 
+		box-shadow: 1px 1px 27px 2px rgba(164,198,57,0.71);
+		border: 5px solid rgba(164,198,57,0.19);
+		border-radius: 40px;
+
+}
+
+.flotantes{
+	width: 24rem;
+	float: right;
+	font-family: Roboto;
+	color: black;
+	font-size: 1.3rem;
+	text-align: center;
+	font-weight: bold;
+	border: 8px ridge rgba(164,198,57,0.52);
+	border-radius: 26px;
+	padding-bottom: 0.5rem;
+}
+
+.flotantes img{
+	width: 80%;
+	margin-top: 1rem;
+
+}
+
+.flotantes figcaption{
+		text-shadow: -2px -2px 0 #a4c639, 2px -2px 0 #a4c639, -2px 2px 0 #a4c639, 2px 2px 0 #a4c639;
+
+}
+
+.seccionmargentop{
+	margin-top: 3rem;
+}
+
+footer{
+	background: #A4C639;
+	border-top: 8px solid #000000;
+	border-top: ;
+	margin-top: 5rem;
+	background-position: 50% 30%;
+	background-repeat: no-repeat;
+	height: 30vh;
+	background-size: cover;
+	background-image: url("https://www.vivatucredito.com/wp-content/uploads/2018/03/Android.png");
+}
+
+section>h3{
+
+	text-shadow: -2px -2px 0 #a4c639, 2px -2px 0 #a4c639, -2px 2px 0 #a4c639, 2px 2px 0 #a4c639;
+	font-family: Roboto;
+	font-size: 1.3rem;
+	font-weight: bolder;
+	color: black;
+	text-align: left;
+
+}
+
+section>ul>li{
+
+	font-family: Roboto;
+	color: black;
+	font-size: 1.3rem;
+	font-weight: bold;
+
+}
+
+.lista1{
+	text-shadow: -2px -2px 0 #a4c639, 2px -2px 0 #a4c639, -2px 2px 0 #a4c639, 2px 2px 0 #a4c639;
+}
+
+summary {
+	font-family: Roboto;
+	color: black;
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-shadow: -2px -2px 0 #a4c639, 2px -2px 0 #a4c639, -2px 2px 0 #a4c639, 2px 2px 0 #a4c639;
+}
+
+li{
+	font-family: Roboto;
+	color: #758E72;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+#referencias{
+	margin-top: 2rem;
+	border: 1px dashed rgba(28,110,164,0.23);
+	border-radius: 12px;
+	padding: 1rem;
+}
+
+/* 
+
+Paleta de colores usada:  
+
+HEX: #deeaee
+
+HEX: #b1cbbb
+
+HEX: #eea29a
+
+HEX: #c94c4c
+
+-------------------
+
+Color verde de Android: #a4c639 
+
+-------------------
+
+Border-bottom del nav:  #fefbd8;
+
+------------------
+*/
